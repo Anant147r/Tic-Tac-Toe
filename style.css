@@ -1,0 +1,16 @@
+body {
+  display: grid;
+  place-items: center;
+}
+.board {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.tile {
+  border: 1px solid black;
+  width: 80px;
+  height: 80px;
+  display: grid;
+  place-items: center;
+}
